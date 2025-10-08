@@ -1,4 +1,4 @@
-# T4.Chat - Power Clone of T3.Chat
+# T4.Chat - Power Clone of T3.Chat 
 
 ![banner](public/banner.png)
 
