@@ -3,7 +3,7 @@ const ChatHeader = () => {
   return (
     <div className="w-full hidden md:block relative">
       <div
-        className="absolute overflow-hidden transition-[top] duration-100 ease-snappy grid place-items-center -right-3 has-[.sidebar-check:checked]:-top-20 top-0 !z-50 h-16 w-32 max-sm:hidden"
+        className="absolute overflow-hidden transition-[top] duration-100 ease-snappy grid place-items-center -right-3 has-[.sidebar-check:checked]:-top-20 top-0 !z-50 h-16 w-44 max-sm:hidden"
         style={{ clipPath: "inset(0px 12px 0px 0px)" }}
       >
         <input
