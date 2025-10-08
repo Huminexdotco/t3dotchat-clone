@@ -1,5 +1,6 @@
 import * as React from "react";
 import { IoMdClose } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
 import {
   Sidebar,
   SidebarContent,
@@ -94,6 +95,13 @@ async function ChatLayoutContent({ children }: { children: React.ReactNode }) {
           </DevTooltip>
         </Link>
         <ThemeToggle />
+        <Link target="_blank" href="https://github.com/Huminexdotco/t3dotchat-clone">
+          <DevTooltip tipData="GitHub">
+            <Button variant="ghost" size="icon">
+              <FaGithub/>
+            </Button>
+          </DevTooltip>
+        </Link>
       </div>
     </div>
   );
