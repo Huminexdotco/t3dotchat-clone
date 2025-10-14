@@ -61,10 +61,7 @@ npm start
 | `MONGODB_URI`                  | MongoDB connection string                  | ✅       |
 | `AUTH_GOOGLE_ID`               | Google OAuth client ID                     | ✅       |
 | `AUTH_GOOGLE_SECRET`           | Google OAuth client secret                 | ✅       |
-| `PERSONAL_EMAIL`               | Email address for sending emails           | ✅       |
-| `EMAIL_PASSWORD`               | App password for email service             | ✅       |
 | `NEXT_PUBLIC_APP_URL`          | Base URL of the application                | ✅       |
-| `GOOGLE_GENERATIVE_AI_API_KEY` | API key for Google's Generative AI         | ✅       |
 | `GEMINI_API_KEY`               | API key for Google's Gemini                | ✅       |
 | `TAVILY_API_KEY`               | API key for Tavily search                  | ✅       |
 | `NEXT_PUBLIC_CLOUDINARY_*`     | Cloudinary configuration for media uploads | ✅       |
