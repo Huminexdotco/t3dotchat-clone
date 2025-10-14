@@ -477,6 +477,7 @@ const SidebarThreads = () => {
               className={`p-2 text-nowrap overflow-hidden w-[95%] truncate px-3 ${
                 showBranchIcon ? "truncate flex items-center gap-2" : "block"
               }`}
+              prefetch={true}
               href={`/chat/${thread.threadId}`}
             >
               {showBranchIcon && <BranchOffIcon />}
