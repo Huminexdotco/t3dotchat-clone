@@ -72,7 +72,7 @@ npm start
 ## 🤝 Contributing
 
 1. Fork → Create branch → Commit → Push → Pull Request
-2. We're committed to continuous improvement!
+2. We're committed to continuous improvement
 
 ## 📄 License
 
