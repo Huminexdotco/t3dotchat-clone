@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
+import { FiLoader } from 'react-icons/fi'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
@@ -143,7 +144,7 @@ export default function CustomizationPage() {
     return (
       <div className="p-6 space-y-8">
         <div className="flex items-center justify-center min-h-[400px]">
-          <div className="text-white">Loading...</div>
+          <FiLoader className="animate-spin text-xl" />
         </div>
       </div>
     )

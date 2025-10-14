@@ -136,7 +136,7 @@ const MessageHistory = ({ data }: MessageHistoryProps) => {
           onClick={handleSelectAll}
           className="flex items-center space-x-2"
         >
-          <Checkbox id="select-all" onCheckedChange={handleSelectAll} checked={allSelected} />
+          <Checkbox id="select-all" onCheckedChange={handleSelectAll} className="cursor-pointer" checked={allSelected} />
           <label
             htmlFor="select-all"
             className="text-sm text-foreground cursor-pointer"

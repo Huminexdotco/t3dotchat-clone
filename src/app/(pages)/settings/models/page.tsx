@@ -1,5 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
+import { FiLoader } from 'react-icons/fi'
 import { Card, CardContent } from '@/components/ui/card'
 import { Switch } from '@/components/ui/switch'
 import { Button } from '@/components/ui/button'
@@ -274,9 +275,8 @@ const page = () => {
   if (isLoadingOpenRouterModels || loading) {
     return (
       <div className="p-6 max-w-4xl mx-auto space-y-6">
-        <div className="space-y-2">
-          <h1 className="text-2xl font-bold text-foreground">Available Models</h1>
-          <p className="text-muted-foreground">Loading models...</p>
+        <div className="flex items-center justify-center min-h-[200px]">
+          <FiLoader className="animate-spin text-xl" />
         </div>
       </div>
     )
